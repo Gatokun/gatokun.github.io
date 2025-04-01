@@ -18,17 +18,6 @@
     opacity: 0.5;
 }
 
-@media screen and (max-width: 1280px) {
-
-    
-    .o4 {
-        background: url(assets/cloudslow.png);
-        z-index: -1;
-        animation: 400s scroll infinite linear;
-        filter: hue-rotate(350deg) saturate(4);
-    }
-  }
-
 @media screen and (min-width: 1280px) {
     
     .o4 {
@@ -64,6 +53,18 @@
     animation-timing-function: ease-in-out;
     color: #7544ad;
 }
+
+@media screen and (max-width: 1280px) {
+
+    .wavetext span{
+        font-size: 45px;
+    }
+    
+    .textorsomething {
+        font-size: 20px;
+    }
+    
+  }
 
 .textorsomething {
     display: flex;
