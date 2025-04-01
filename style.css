@@ -1,0 +1,75 @@
+.o {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.o1 {
+    background: url(assets/bg.png);
+    z-index: -3;
+}
+
+.o2 {
+    background: url(assets/stars.png);
+    z-index: -2;
+    animation: 200s scroll infinite linear;
+    opacity: 0.5;
+}
+
+.o4 {
+    background: url(assets/clouds.png);
+    z-index: -1;
+    animation: 400s scroll infinite linear;
+    filter: hue-rotate(350deg) saturate(4);
+}
+
+@keyframes scroll {
+    100% {
+        background-position: -3000px 0px;
+    }
+}
+/* I got this space background from https://codepen.io/matuzyaka/pen/VwZaORe credits to them*/
+
+.wavetext {
+    margin-top: 10em;
+    text-align: center;
+    margin-bottom: 9em;
+}
+
+.wavetext span {
+    display: inline-block;
+    font-family: 'Delfino', sans-serif;
+    font-size: 70px;
+    animation-duration: 2s;
+    animation-name: wave;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    color: #7544ad;
+}
+
+.textorsomething {
+    display: flex;
+    justify-content: center;
+    font-family: 'Delfino', sans-serif;
+    font-size: 30px;
+    color: #9670c2;
+}
+
+
+@keyframes wave {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-30px);
+    }
+}
+
+@font-face {
+    font-family: 'Delfino';
+    src: url('assets/Delfino.ttf');
+}
