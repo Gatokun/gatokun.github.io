@@ -6,23 +6,23 @@
     height: 100%;
 }
 
+.o1 {
+    background: url(assets/bglow.png);
+    z-index: -3;
+}
 
+.o2 {
+    background: url(assets/starslow.png);
+    z-index: -2;
+    animation: 200s scroll infinite linear;
+    opacity: 0.5;
+}
 
 @media screen and (max-width: 1280px) {
-    .o1 {
-        background: url(assets/bglow.png);
-        z-index: -3;
-    }
-    
-    .o2 {
-        background: url(assets/starslow.png);
-        z-index: -2;
-        animation: 200s scroll infinite linear;
-        opacity: 0.5;
-    }
+
     
     .o4 {
-        background: url(assets/clouds.png);
+        background: url(assets/cloudslow.png);
         z-index: -1;
         animation: 400s scroll infinite linear;
         filter: hue-rotate(350deg) saturate(4);
@@ -30,17 +30,6 @@
   }
 
 @media screen and (min-width: 1280px) {
-    .o1 {
-        background: url(assets/bg.png);
-        z-index: -3;
-    }
-    
-    .o2 {
-        background: url(assets/stars.png);
-        z-index: -2;
-        animation: 200s scroll infinite linear;
-        opacity: 0.5;
-    }
     
     .o4 {
         background: url(assets/clouds.png);
