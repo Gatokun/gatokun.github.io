@@ -18,11 +18,14 @@
     opacity: 0.5;
 }
 
+.o4 {
+    z-index: -1;
+}
+
 @media screen and (min-width: 1280px) {
     
     .o4 {
         background: url(assets/clouds.png);
-        z-index: -1;
         animation: 400s scroll infinite linear;
         filter: hue-rotate(350deg) saturate(4);
     }
