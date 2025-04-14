@@ -54,26 +54,29 @@
     color: #7544ad;
 }
 
-@media screen and (max-width: 1280px) {
-
-    .wavetext span{
-        font-size: 45px;
-    }
-    
-    .textorsomething {
-        font-size: 20px;
-    }
-    
-  }
-
-.textorsomething {
+.containerfortext {
     display: flex;
+    justify-content: center;
+}
+
+.text1 {
     justify-content: center;
     font-family: 'Delfino', sans-serif;
     font-size: 30px;
     color: #9670c2;
 }
 
+@media screen and (max-width: 1280px) {
+
+    .wavetext span{
+        font-size: 45px;
+    }
+    
+    .text1 {
+        font-size: 20px;
+    }
+    
+  }
 
 @keyframes wave {
     from {
