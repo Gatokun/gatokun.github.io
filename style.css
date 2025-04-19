@@ -22,6 +22,7 @@
     z-index: -1;
 }
 
+/*
 @media screen and (min-width: 1280px) {
     
     .o4 {
@@ -30,6 +31,7 @@
         filter: hue-rotate(350deg) saturate(4);
     }
 }
+i don't think this is worth it anymore*/
 
 
 @keyframes scroll {
